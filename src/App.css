@@ -1,0 +1,12 @@
+.active {
+  color: 'red';
+  background-color: yellow;
+  font-weight: bold;
+}
+
+ul {
+  width: '100%';
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}

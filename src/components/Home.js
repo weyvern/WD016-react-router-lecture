@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Home = () => {
+const Home = ({ title }) => {
   return (
     <div>
-      <h1>Welcome 🥳</h1>
+      <h1>{title} 🥳</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde excepturi voluptatem maiores eius assumenda
         nemo id, dignissimos maxime rerum illo optio aperiam! Cupiditate nam rem veniam doloribus, corrupti alias quae
